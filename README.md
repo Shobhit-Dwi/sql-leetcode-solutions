@@ -1,5 +1,0 @@
-# sql-leetcode-solutions
-My solutions to SQL problems from LeetCode with clean documentation.
-SELECT player_id, TO_CHAR(MIN(event_date)) AS first_login
-FROM Activity
-GROUP BY player_id;
