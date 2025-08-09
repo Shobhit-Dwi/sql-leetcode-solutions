@@ -1,12 +1,14 @@
 # 🧠 SQL LeetCode Solutions
 
 Welcome to my personal collection of SQL solutions for LeetCode problems.  
-This repository showcases my problem-solving approach, clean SQL practices, and commitment to improving my data querying skills for roles like:
+This repository showcases my problem-solving approach, clean SQL practices, and commitment to improving my data querying skills. 
 
-- Data Analyst  
-- Business Analyst  
-- SQL Developer  
-- BI Analyst  
+---
+
+## ✅ Authenticity Note
+All SQL solutions in this repository were written by me from scratch.
+I used AI (ChatGPT) only to help with folder formatting, naming, and generating README files to save time — not to write queries.
+The purpose of this repo is to track my learning and serve as a resource for others.
 
 ---
 
@@ -18,7 +20,6 @@ Each folder in this repository represents a **specific LeetCode SQL problem**. I
 - `solution.sql` → My SQL solution for that problem
 
 ---
-
 
 ## 🛠️ SQL Topics Covered
 
