@@ -19,14 +19,6 @@ Each folder in this repository represents a **specific LeetCode SQL problem**. I
 
 ---
 
-## 📚 Problem List
-
-| Problem # | Title                            | Link                                               |
-|-----------|----------------------------------|----------------------------------------------------|
-| 511       | Game Play Analysis I             | [View Solution](./511-game-play-analysis-i/)       |
-<!-- Add more problems as you go -->
-
----
 
 ## 🛠️ SQL Topics Covered
 
