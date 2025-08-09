@@ -61,8 +61,9 @@ As an aspiring data analyst, regularly solving SQL problems helps me:
 
 ## 🔗 Connect with Me
 
-- 📧 Email: your.email@example.com  
-- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)  
+- 📧 Email: shobhitd044@gmail.com 
+- 💼 [LinkedIn](linkedin.com/in/shobhit-dwivedi-102b05257)
+ 
 - 📊 Portfolio: coming soon!
 
 ---
