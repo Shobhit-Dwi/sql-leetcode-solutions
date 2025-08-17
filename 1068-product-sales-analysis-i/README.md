@@ -19,3 +19,5 @@ The query selects the following:
 
 - `product_name` from the `Product` table,
 - `year` and `price` from the `Sales` table.
+
+- 📄 See solution.sql for the actual SQL code.
