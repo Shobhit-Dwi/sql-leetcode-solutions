@@ -4,16 +4,17 @@
 
 ## 🧠 Problem Summary
 
-Given a table `Views` with columns `author_id` and `viewer_id`, return the list of author IDs where the author has viewed their own article.
+You are given a table `Views` with `author_id` and `viewer_id`. Return the IDs of authors who viewed their own articles.
 
-## ✅ Approach (Filtering with WHERE and GROUP BY)
+## ✅ Approach (DISTINCT with WHERE and ORDER BY)
 
-This solution filters the table to find cases where `author_id` is equal to `viewer_id` (the author viewed their own article). Then it groups the result by `author_id` and orders the output ascending by the author ID.
+This solution filters the records where the author is the same as the viewer (self-views), and returns a sorted list of distinct author IDs.
 
 ### Explanation:
 
-- Use `WHERE author_id = viewer_id` to filter authors who viewed their own articles.
-- Use `GROUP BY author_id` to get unique author IDs.
-- Use `ORDER BY id ASC` to sort the author IDs in ascending order.
+- Use `WHERE author_id = viewer_id` to filter for self-views.
+- Use `DISTINCT` to return each qualifying `author_id` only once.
+- Use `ORDER BY id ASC` to return the result in ascending order.
 
 📄 **See [`solution.sql`](./solution.sql) for the actual SQL code.**
+
