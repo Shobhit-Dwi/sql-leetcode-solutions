@@ -13,4 +13,8 @@ This solution calculates capital gain or loss using conditional aggregation.
 ### Explanation:
 
 - Use `CASE` inside `SUM` to handle both operations:
-  - Subtract the `price` when the ope
+  - Subtract the `price` when the operation is `'Buy'`.
+  - Add the `price` when the operation is `'Sell'`.
+- Group the result by `stock_name` to compute the capital gain/loss for each stock.
+
+📄 **See [`solution.sql`](./solution.sql) for the actual SQL code.**
